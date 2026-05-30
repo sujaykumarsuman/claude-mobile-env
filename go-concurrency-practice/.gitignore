@@ -1,0 +1,16 @@
+# Compiled binaries from `go build` in each problem folder.
+# The module name in each go.mod determines the binary name, so list
+# all of them explicitly rather than guessing patterns.
+easy/01-parallel-sum/parallelsum
+easy/02-ping-pong/pingpong
+easy/03-worker-pool/workerpool
+medium/01-rate-limiter/ratelimiter
+medium/02-pipeline/pipeline
+medium/03-concurrent-fetcher/concurrentfetcher
+hard/01-lru-cache-ttl/lrucachettl
+hard/02-web-crawler/webcrawler
+hard/03-job-scheduler/jobscheduler
+
+# General Go artifacts
+*.test
+*.out
